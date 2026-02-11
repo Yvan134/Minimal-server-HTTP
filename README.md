@@ -33,7 +33,7 @@ gcc -o bichttpd main.c
 Lancement
 Bash
 ./bichttpd -p 8080 -d on
--p : Port d'écoute (par défaut 42110).
+-p : Port d'écoute (par défaut 42110 et peut être spécifié via l'option -p dans le terminal).
 
 -d : Mode debug (on ou off).
 
